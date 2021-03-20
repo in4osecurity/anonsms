@@ -94,10 +94,10 @@ try:
     verl = open(".version", 'r').read()
 except Exception:
     pass
-if ver != verl:
-    print('\n\t\tAn Update is Available....')
-    print('\tUpdating Anon-SMS...')
-    update()
+#if ver != verl:
+#    print('\n\t\tAn Update is Available....')
+#    print('\tUpdating Anon-SMS...')
+#    update()
 print("Congratulation")
 print("Your Version is Up-To-Date")
 print('\n\tStarting Anon-SMS...\n')
